@@ -1,0 +1,10 @@
+@mixin mediaScreen($width) {
+    .container {
+        padding: 0 $width;
+    }
+}
+
+@mixin button($col, $bg) {
+    color: $col;
+    background-color: $bg;
+}

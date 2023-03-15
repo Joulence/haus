@@ -1,0 +1,63 @@
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_fonts';
+
+@import 'blocks/header';
+@import 'blocks/_about';
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.container {
+    padding: 0 4%;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+/* @media (max-width: 1600px) {
+    @include mediaScreen(4%);
+}
+
+@media (max-width: 1280px) {
+    @include mediaScreen(3%);
+}
+
+@media (max-width: 1140px) {
+    @include mediaScreen(2%);
+}
+
+@media (max-width: 426px) {
+    @include mediaScreen(1%);
+} */

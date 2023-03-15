@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("../fonts/LiberationSerif-Regular.woff2");
+@import url("../fonts/LiberationSerif-Italic.woff2");
+@import url("../fonts/LiberationSerif-Bold.woff2");
+@import url("../fonts/LiberationSerif-BoldItalic.woff2");
+.header {
+  background: url("../../img/header/header.png") no-repeat #996B60;
+  width: 100%;
+  background-size: 50%;
+}
+.header nav {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav ul {
+  display: flex;
+}
+.header nav ul li {
+  margin-right: 60px;
+}
+.header nav ul li:last-child {
+  margin-right: 0;
+}
+.header nav ul li a {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header__inner {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: right;
+  margin-top: 170px;
+  color: #fff;
+}
+.header__inner-text h1 {
+  font-family: LiberationSerif, Regular;
+  font-weight: 400;
+  font-size: 73px;
+}
+.header__inner-text h2 {
+  margin: 34px 0 75px 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header__inner-text a {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  border: 1px #000000 solid;
+  color: #fff;
+  background-color: #000000;
+  padding: 20px 50px;
+  transition: all 0.1s linear;
+}
+.header__inner-text a:hover {
+  border-color: #fff;
+  color: #000000;
+  background-color: transparent;
+}
+
+@media (max-width: 1365px) {
+  .header {
+    background: #996B60;
+  }
+  .header__inner {
+    justify-content: center;
+  }
+  .header__inner-text {
+    text-align: center;
+  }
+  .header__inner-text h1 br {
+    display: none;
+  }
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.container {
+  padding: 0 4%;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+/* @media (max-width: 1600px) {
+    @include mediaScreen(4%);
+}
+
+@media (max-width: 1280px) {
+    @include mediaScreen(3%);
+}
+
+@media (max-width: 1140px) {
+    @include mediaScreen(2%);
+}
+
+@media (max-width: 426px) {
+    @include mediaScreen(1%);
+} */
