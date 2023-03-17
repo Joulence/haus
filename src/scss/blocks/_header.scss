@@ -50,6 +50,11 @@
                 font-size: 20px;
             }
 
+
+        }
+
+        &-link {
+            margin-bottom: 100px;
             a {
                 margin-bottom: 100px;
                 text-transform: uppercase;
@@ -71,10 +76,13 @@
 @media(max-width: 1365px) {
     .header {
         background: $hdr;
+
         &__inner {
             justify-content: center;
+
             &-text {
                 text-align: center;
+
                 h1 {
                     br {
                         display: none;

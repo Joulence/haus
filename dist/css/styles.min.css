@@ -47,7 +47,10 @@
   font-weight: 400;
   font-size: 20px;
 }
-.header__inner-text a {
+.header__inner-link {
+  margin-bottom: 100px;
+}
+.header__inner-link a {
   margin-bottom: 100px;
   text-transform: uppercase;
   border: 1px #000000 solid;
@@ -56,7 +59,7 @@
   padding: 20px 50px;
   transition: all 0.1s linear;
 }
-.header__inner-text a:hover {
+.header__inner-link a:hover {
   border-color: #fff;
   color: #000000;
   background-color: transparent;
