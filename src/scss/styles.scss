@@ -3,7 +3,8 @@
 @import 'base/_fonts';
 
 @import 'blocks/header';
-@import 'blocks/_about';
+@import 'blocks/about';
+@import 'blocks/articles';
 
 * {
     padding: 0;
@@ -32,7 +33,7 @@ h1 {
     font-weight: 600;
 }
 
-.container {
+.wrapper {
     padding: 0 4%;
 }
 
@@ -46,18 +47,7 @@ ul {
     margin: 0;
 }
 
-/* @media (max-width: 1600px) {
-    @include mediaScreen(4%);
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
 }
-
-@media (max-width: 1280px) {
-    @include mediaScreen(3%);
-}
-
-@media (max-width: 1140px) {
-    @include mediaScreen(2%);
-}
-
-@media (max-width: 426px) {
-    @include mediaScreen(1%);
-} */

@@ -1,0 +1,33 @@
+.articles {
+    margin-top: 59px;
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-bottom: 1px solid #BDBDBD;
+        padding-bottom: 40px;
+
+        &-content {
+            max-width: 330px;
+            text-align: center;
+
+            div {
+                font-weight: 400;
+                font-size: 18px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .articles {
+        &__inner {
+            justify-content: center;
+            gap: 50px;
+        }
+    }
+}
