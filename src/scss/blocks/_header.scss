@@ -55,6 +55,7 @@
 
         &-link {
             margin-bottom: 100px;
+
             a {
                 margin-bottom: 100px;
                 text-transform: uppercase;
@@ -72,6 +73,21 @@
 
     }
 }
+
+.menu-show {
+    display: flex !important;
+    flex-direction: column;
+    margin: 0;
+
+    &.navMenu-right {
+        align-items:flex-end
+    }
+}
+
+.nav-transform {
+    justify-content: space-between !important;
+}
+
 
 @media(max-width: 1365px) {
     .header {
@@ -91,4 +107,21 @@
             }
         }
     }
+}
+
+@media (max-width: 820px) {
+    .header {
+        nav {
+            justify-content: center;
+            ul {
+                display: none;
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    // .navMenu {
+    //     display: none;
+    // }
 }
