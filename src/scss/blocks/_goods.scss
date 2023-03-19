@@ -29,11 +29,16 @@
             justify-content: space-between;
             flex-wrap: wrap;
             align-items: baseline;
+            gap: 50px;
         }
 
         &-taste {
             max-width: 383px;
             text-align: center;
+
+            img {
+                width: 100%;
+            }
 
             h4 {
                 margin: 52px 0 16px 0;
@@ -69,5 +74,11 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1250px) {
+    .goods__inner-content {
+        justify-content: center;
     }
 }
