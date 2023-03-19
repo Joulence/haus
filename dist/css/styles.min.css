@@ -155,6 +155,38 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.goods__inner-taste {
+  max-width: 383px;
+  text-align: center;
+}
+.goods__inner-taste h4 {
+  margin: 52px 0 16px 0;
+  font-family: LiberationSerif, Regular;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
+}
+.goods__inner-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 47px;
+}
+.goods__inner-link a {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 0px;
+  padding: 19px 48px;
+  transition: all 0.1s linear;
+}
+.goods__inner-link a:hover {
+  background: transparent;
+  color: #000000;
+}
 
 * {
   padding: 0;
