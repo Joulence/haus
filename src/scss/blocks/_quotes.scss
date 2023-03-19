@@ -34,3 +34,9 @@
         text-transform: capitalize;
     }
 }
+
+@media (max-width: 1060px) {
+    .quotes__inner {
+        justify-content: center;
+    }
+}
