@@ -22,10 +22,13 @@
     }
 
     &__inner {
+        padding-bottom: 140px;
         &-content {
+            margin-top: 80px;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            align-items: baseline;
         }
 
         &-taste {

@@ -110,6 +110,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 .articles__inner-content {
   max-width: 330px;
@@ -150,10 +151,15 @@
   text-transform: uppercase;
   color: #000000;
 }
+.goods__inner {
+  padding-bottom: 140px;
+}
 .goods__inner-content {
+  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 .goods__inner-taste {
   max-width: 383px;
@@ -236,5 +242,4 @@ ul {
 
 .bottom-line {
   border-bottom: 1px solid #BDBDBD;
-  padding-bottom: 40px;
 }
