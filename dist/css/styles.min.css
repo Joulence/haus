@@ -203,6 +203,34 @@
     justify-content: center;
   }
 }
+.aperetifis {
+  margin-top: 60px;
+}
+.aperetifis__inner {
+  padding-bottom: 95px;
+}
+.aperetifis__inner img {
+  width: 100%;
+}
+.aperetifis__inner-content {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.aperetifis__inner-content h2 {
+  font-weight: 400;
+  font-size: 53px;
+  font-family: LiberationSerif, Regular;
+}
+.aperetifis__inner-content div {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 548px;
+}
+
 * {
   padding: 0;
   box-sizing: border-box;

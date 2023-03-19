@@ -1,0 +1,31 @@
+.aperetifis {
+    margin-top: 60px;
+
+    &__inner {
+        padding-bottom: 95px;
+        img {
+            width: 100%;
+        }
+
+        &-content {
+            margin-top: 55px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 50px;
+
+            h2 {
+                font-weight: 400;
+                font-size: 53px;
+                font-family: $liberReg;
+            }
+
+            div {
+                font-weight: 400;
+                font-size: 18px;
+                max-width: 548px;
+            }
+        }
+    }
+}
