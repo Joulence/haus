@@ -5,6 +5,7 @@
 @import 'blocks/header';
 @import 'blocks/about';
 @import 'blocks/articles';
+@import 'blocks/goods';
 
 * {
     padding: 0;
@@ -50,4 +51,9 @@ ul {
 .container {
     max-width: 1320px;
     margin: 0 auto;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 40px;
 }

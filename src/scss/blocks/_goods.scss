@@ -1,0 +1,30 @@
+.goods {
+    margin-top: 105px;
+
+    &-title {
+        max-width: 673px;
+        font-family: $liberReg;
+        font-size: 64px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+        font-weight: 400;
+    }
+
+    &-subtitle {
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__inner {
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
