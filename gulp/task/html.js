@@ -12,8 +12,8 @@ export const html = () => {
         )
         .pipe(fileinclude())
         /* .pipe(app.plugins.replace(/@img\//g, 'img/')) */
-        .pipe(app.plugins.replace('../img/', 'img/'))
-        .pipe(app.plugins.replace('../files/', 'files/'))
+        .pipe(app.plugins.replace('../img/', './img/'))
+        .pipe(app.plugins.replace('../files/', './files/'))
         .pipe(
             app.plugins.if(
                 app.isBuild,
