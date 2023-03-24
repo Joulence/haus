@@ -1,0 +1,122 @@
+.footer {
+    padding: 45px 0 55px;
+    background: $bl;
+    color: $wh;
+
+    &__inner {
+        &-action {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .footer-action {
+
+                &__form {
+                    max-width: 440px;
+
+                    h2 {
+                        font-family: $liberReg;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 42px;
+                        margin-bottom: 12px;
+                    }
+
+                    div {
+                        font-weight: 400;
+                        font-size: 18px;
+                        margin-bottom: 14px;
+                    }
+
+                    form {
+                        position: relative;
+
+                        input {
+                            width: 100%;
+                            background: transparent;
+                            border: transparent;
+                            color: #818181;
+                            font-family: 'Roboto';
+                            border-bottom: 1px solid #818181;
+                            padding: 20px 0 20px 24px;
+
+                            &:focus-visible {
+                                outline: none;
+                            }
+                        }
+
+                        button {
+                            background: transparent;
+                            outline: none;
+                            border: transparent;
+                            color: #fff;
+                            text-transform: uppercase;
+                            font-family: 'Roboto';
+                            font-weight: 400;
+                            font-size: 12px;
+                            position: absolute;
+                            top: 35%;
+                            right: 0;
+                        }
+                    }
+                }
+
+                &__links {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 150px;
+
+                    .footer-links {
+                        &__list {
+                            h3 {
+                                font-weight: 400;
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                margin-bottom: 30px;
+                            }
+
+                            ul {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 21px;
+
+                                a {
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                    text-transform: uppercase;
+                                    color: rgba(255, 255, 255, 0.6);
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-info {
+            margin-top: 124px;
+
+            ul {
+                display: flex;
+                gap: 60px;
+                flex-wrap: wrap;
+
+                li {
+                    :first-child {
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+
+                    a {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: rgba(255, 255, 255, 0.6);
+                    }
+                }
+            }
+        }
+    }
+}

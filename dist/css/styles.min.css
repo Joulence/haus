@@ -437,6 +437,101 @@
     padding: 15px 35px;
   }
 }
+.footer {
+  padding: 45px 0 55px;
+  background: #000000;
+  color: #fff;
+}
+.footer__inner-action {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer__inner-action .footer-action__form {
+  max-width: 440px;
+}
+.footer__inner-action .footer-action__form h2 {
+  font-family: LiberationSerif, Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+.footer__inner-action .footer-action__form div {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.footer__inner-action .footer-action__form form {
+  position: relative;
+}
+.footer__inner-action .footer-action__form form input {
+  width: 100%;
+  background: transparent;
+  border: transparent;
+  color: #818181;
+  font-family: "Roboto";
+  border-bottom: 1px solid #818181;
+  padding: 20px 0 20px 24px;
+}
+.footer__inner-action .footer-action__form form input:focus-visible {
+  outline: none;
+}
+.footer__inner-action .footer-action__form form button {
+  background: transparent;
+  outline: none;
+  border: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
+.footer__inner-action .footer-action__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+.footer__inner-action .footer-action__links .footer-links__list h3 {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.footer__inner-action .footer-action__links .footer-links__list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.footer__inner-action .footer-action__links .footer-links__list ul a {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer__inner-info {
+  margin-top: 124px;
+}
+.footer__inner-info ul {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.footer__inner-info ul li :first-child {
+  font-weight: 400;
+  font-size: 15px;
+}
+.footer__inner-info ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 * {
   padding: 0;
   box-sizing: border-box;
