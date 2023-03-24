@@ -1,14 +1,15 @@
-@import 'base/_variables';
-@import 'base/_mixins';
-@import 'base/_fonts';
+@import './base/_variables';
+@import './base/_mixins';
+@import './base/_fonts';
 
-@import 'blocks/header';
-@import 'blocks/articles';
-@import 'blocks/goods';
-@import 'blocks/aperetifis';
-@import 'blocks/about';
-@import 'blocks/quotes';
-@import 'blocks/composition';
+@import './blocks/header';
+@import './blocks/articles';
+@import './blocks/goods';
+@import './blocks/aperetifis';
+@import './blocks/about';
+@import './blocks/quotes';
+@import './blocks/composition';
+@import './blocks/socials';
 
 * {
     padding: 0;
