@@ -1,0 +1,93 @@
+.socials {
+    background: url(../../img/socials/bg.png);
+    background-size: cover;
+    color: $wh;
+    padding: 60px 0;
+
+    a {
+        color: $wh;
+    }
+
+    &__spotify,
+    &__follow {
+        background: #000;
+        max-width: 550px;
+    }
+
+    &__spotify {
+        text-align: center;
+        padding: 40px 69px;
+        margin-bottom: 20px;
+
+        h2 {
+            font-family: $liberReg;
+            font-weight: 400;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 26px;
+        }
+
+        &-link {
+            padding: 19px 0;
+
+            a {
+                font-weight: 400;
+                font-size: 12px;
+                text-align: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #000000;
+                padding: 19px 58px;
+                background: $wh;
+            }
+        }
+    }
+
+    &__follow {
+        padding: 30px 0;
+        text-align: center;
+
+        h3 {
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 17px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            a {
+                font-weight: 400;
+                font-size: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 1320px) {
+    .socials__spotify {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 25px 55px;
+    }
+
+    .socials__follow {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .socials__spotify {
+        padding: 15px 35px;
+    }
+}
