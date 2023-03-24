@@ -1,0 +1,51 @@
+.composition {
+    margin-top: 60px;
+    padding-bottom: 59px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &-img {
+            max-width: 540px;
+            img {
+                width: 100%;
+            }
+        }
+
+        &-text {
+            max-width: 660px;
+
+            h2 {
+                font-family: $liberReg;
+                font-weight: 400;
+                font-size: 64px;
+                color: #000000;
+                margin-bottom: 150px;
+            }
+
+            div {
+                font-weight: 400;
+                font-size: 18px;
+                margin-bottom: 35px;
+            }
+
+            a {
+                font-weight: 400;
+                font-size: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .composition__inner {
+        justify-content: center;
+        gap: 50px;
+    }
+}
